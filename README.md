@@ -49,23 +49,7 @@ GeoQuester is designed to intertwine physical activity with interactive challeng
 
 ### Domain Model Diagram
 This diagram visualizes the relationships and entity connections within GeoQuester: 
-       +------------+     +------------+
-       |   User     |     |  Challenge |
-       +------------+     +------------+
-            |                   |
-            |                   |
-            V                   V
-+------+  +----+----+     +----+----+    +---------+
-| Task |--| Submission|  | Leaderboard|  |  User  |
-+------+  +----+----+     +----+----+    +---------+
-            |                   |
-            |                   |
-            V                   V
-         +-----------+     +-----------+
-         |           |     |           |
-         |   Image   |     |   Text    |
-         |           |     |           |
-         +-----------+     +-----------+
+![image](https://github.com/Innova-Tech-Labs/demo-repository/assets/146989043/ee953aa6-6144-4b9c-9815-ccc5462e403e)
 
 
 
